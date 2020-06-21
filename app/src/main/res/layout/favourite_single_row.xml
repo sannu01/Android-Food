@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="200dp"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#F6EDEB"
+    app:cardCornerRadius="8dp">
+<LinearLayout
+    android:id="@+id/llcotentfavourite"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:weightSum="11"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#12EC7450"
+        android:layout_weight="6">
+    <ImageView
+        android:id="@+id/favimgrestaurant"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+
+        />
+
+        <ImageView
+            android:id="@+id/favrestaurantfavicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_cancel"
+            android:padding="5dp"
+            android:alpha="0.3"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#787777"/>
+    <TextView
+        android:id="@+id/favnamerestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"/>
+    <TextView
+        android:id="@+id/favcostrestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:text="Cost"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:drawableLeft="@drawable/ic_rupee"
+        android:drawablePadding="5dp"
+        android:textColor="#000000"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/favrestsurantrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.2"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#C6920E"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"/>
+<!--        android:layout_toLeftOf="@id/center"-->
+<!--        android:layout_marginRight="10dp"-->
+
+        />
+            <View
+                android:id="@+id/center"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:background="#F6EDEB"/>
+<!--            <ImageView-->
+<!--                android:id="@+id/favrestaurantfavicon"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:src="@drawable/ic_fav"-->
+<!--                android:padding="5dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_toRightOf="@id/center"-->
+<!--                />-->
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

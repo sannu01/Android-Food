@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.LoginActivity">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:padding="10dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+    <EditText
+        android:id="@+id/enmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:hint="Enter Mobile Number"
+        android:background="#ffffff"
+        android:padding="4dp"
+        android:layout_below="@id/logo"
+        android:drawableStart="@drawable/mobilw"
+        android:inputType="phone"
+        android:drawablePadding="10dp"
+        android:maxLength="10"
+        android:maxLines="1"
+        />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+    <EditText
+        android:id="@+id/enpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textSize="18sp"
+        android:hint="Enter Password"
+        android:padding="4dp"
+        android:drawableStart="@drawable/lockpass"
+        android:inputType="numberPassword"
+        android:drawablePadding="10dp"
+        android:maxLines="1"
+
+        />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="10dp">
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_below="@id/enpass"
+        android:background="@color/colorPrimaryDark"
+        android:text="Login"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/txtforgotpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+
+        />
+</LinearLayout>
+    <TextView
+        android:id="@+id/txtsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".fragment.FaqFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How long do you take to deliver?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Standard delivery times vary by the location selected
+and prevailing conditions."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is there a minimum order value?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We have no minimum order value and you can order for any amount."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I order from any Restaurant? "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will deliver from any restaurant listed on the search results."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I order from multiple restaurant in same order?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No, you can order from one restaurant at a time and if you want to place order from multiple
+places then place an individual order from each restaurant."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Can I edit my Order?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For now we dont support editing order after it is placed
+so place your order after confirming the item."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where can I see my order details?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For order history select the hamburger menu on the top left
+then select the order history menu from drawer and it will take you to your order history."
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unable to view the details in my profile"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+
+        android:textColor="#8C0606"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please check if your app is due for update or try logout
+and then login again"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#090200"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#628388"/>
+
+
+
+</LinearLayout>
+</ScrollView>

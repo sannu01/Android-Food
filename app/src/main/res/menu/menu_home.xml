@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:title="menu"
+        android:icon="@drawable/ic_action_sort"
+        app:showAsAction="always">
+        <menu>
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/sortrating"
+
+            android:title="Sort by Rating" />
+        <item
+            android:id="@+id/priceLtoH"
+            android:title="Sort by Price(Low to High)"
+            />
+        <item
+            android:id="@+id/priceHtoL"
+            android:title="Sort by price(High to Low"
+            />
+
+
+    </group>
+        </menu>
+    </item>
+
+</menu>

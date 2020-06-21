@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ResetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Received OTP and New Password"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:padding="5dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+
+    <EditText
+        android:id="@+id/enotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP (4 Character)"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:inputType="number"
+        android:maxLength="4"
+        android:maxLines="1"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+
+    <EditText
+        android:id="@+id/enresetpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Password(Minimum 6 Character)"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLines="1"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp">
+
+
+    <EditText
+        android:id="@+id/enresetconfpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:inputType="numberPassword"
+        android:maxLines="1"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        app:cardCornerRadius="10dp">
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Submit"
+        android:layout_margin="4dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
